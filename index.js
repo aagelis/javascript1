@@ -1,6 +1,6 @@
 
 let nombre = prompt("Ingrese su nombre");
-alert ("Hola " + nombre + " bienvenido a mi script de calcular promedio de edad ")
+alert ("Hola " + nombre + " bienvenido a mi script de calcular promedio de edad ");
 
 function calcularEdadPromedio() {
     edad = Number(
@@ -17,5 +17,8 @@ function calcularEdadPromedio() {
 
     promedio = edadTotal / contadora;
     alert("La edad promedio es " + promedio);
+    
+alert ("Gracias por utilizar mi script para realizarlo nuevamente presiona F5");
 }
+
 
